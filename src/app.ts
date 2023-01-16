@@ -1,9 +1,9 @@
-const getString = (s: string) => {
+const getString = (s: string): string => {
 	return `hej ${s}`;
 };
 
-const arr = ["apa", "orangutang", "gorilla", "get", "giraff"];
+const arr: string[] = ["apa", "orangutang", "gorilla", "get", "giraff"];
 for (let i = 0; i < arr.length; i++) {
-	const word = arr[i];
+	const word: string = arr[i];
 	console.log(getString(word));
 }
