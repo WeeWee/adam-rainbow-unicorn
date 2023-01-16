@@ -1,6 +1,8 @@
-var obj = {
-    b: false,
-    n: 2,
-    s: "hello world"
+var getString = function (s) {
+    return "hej ".concat(s);
 };
-console.log(obj);
+var arr = ["apa", "orangutang", "gorilla", "get", "giraff"];
+for (var i = 0; i < arr.length; i++) {
+    var word = arr[i];
+    console.log(getString(word));
+}
