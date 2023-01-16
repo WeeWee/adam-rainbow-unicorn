@@ -1,2 +1,6 @@
-const arr = ["apa", "orangutang", "gorilla", "get", "giraff"];
-console.log(arr);
+const obj = {
+	b: false,
+	n: 2,
+	s: "hello world",
+};
+console.log(obj);
